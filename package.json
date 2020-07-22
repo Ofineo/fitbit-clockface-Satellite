@@ -1,0 +1,32 @@
+{
+  "fitbit": {
+    "appType": "clockface",
+    "appDisplayName": "Satellites",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_internet",
+      "access_app_cluster_storage"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Satellites"
+      }
+    },
+    "appUUID": "1ffed1c9-6ab8-4e2f-8afd-a701fd259e56",
+    "appClusterID": "1946b2da73277ba3ada71e48e618560f0ffc636de0c3935f5e7b16ec99d26f7e",
+    "developerID": "8fa797ab-4b76-4585-8181-abcee9aacd88"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0",
+    "@fitbit/sdk-cli": "^1.7.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
