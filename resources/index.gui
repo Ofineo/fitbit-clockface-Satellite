@@ -1,5 +1,13 @@
 <svg>
 	<rect id="background" />
+  	<arc id="steps" x="34" y="10" width="90" height="90" fill="black" arc-width="12" start-angle="0" sweep-angle="360" />
+  	<arc id="steps" x="49" y="25" width="60" height="60" fill="blue" arc-width="18" start-angle="0" sweep-angle="270" />
+
+  	<arc id="floors" x="134" y="10" width="90" height="90" fill="black" arc-width="12" start-angle="0" sweep-angle="270" />
+  	<arc id="floors" x="149" y="25" width="60" height="60" fill="green" arc-width="18" start-angle="0" sweep-angle="270" />
+  	<arc id="distance" x="234" y="10" width="90" height="90" fill="black" arc-width="12" start-angle="0" sweep-angle="270" />
+  	<arc id="distance" x="249" y="25" width="60" height="60" fill="yellow" arc-width="18" start-angle="0" sweep-angle="270" />
+
 	<text id="hours" class="clock" />
 	<text id="minutes" class="clock" />
 </svg>
